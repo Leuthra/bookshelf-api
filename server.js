@@ -26,7 +26,7 @@ const init = async () => {
     handler: {
       proxy: {
         host: 'localhost',
-        port: 8000,
+        port: 3000,
         protocol: 'http',
         passThrough: true
       }
