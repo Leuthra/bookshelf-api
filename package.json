@@ -1,0 +1,45 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "documentation bookshelf api ",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js && vitepress dev docs --port 8000",
+    "build": "vitepress build docs",
+    "start": "node server.js && vitepress dev docs --port 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leuthra/bookshelf-api.git"
+  },
+  "keywords": [
+    "bookshelf",
+    "api",
+    "bookshelf-api"
+  ],
+  "author": "Leuthra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leuthra/bookshelf-api/issues"
+  },
+  "homepage": "https://github.com/leuthra/bookshelf-api#readme",
+  "devDependencies": {
+    "@hapi/h2o2": "^10.0.4",
+    "@hapi/inert": "^7.1.0",
+    "@huyikai/vitepress-helper": "^0.0.30",
+    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
+    "autoprefixer": "^10.4.19",
+    "daisyui": "^4.12.10",
+    "postcss": "^8.4.39",
+    "postcss-nesting": "^12.1.5",
+    "tailwindcss": "^3.4.4",
+    "vitepress": "^1.2.3",
+    "vue": "^3.4.31"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.10",
+    "nanoid": "^5.0.7"
+  }
+}
